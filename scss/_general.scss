@@ -1,0 +1,23 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(../assets/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans SemiBold";
+    src: url(../assets/fonts/OpenSans-SemiBold.ttf);
+}

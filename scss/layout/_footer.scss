@@ -1,0 +1,136 @@
+footer {
+  width: 100%;
+  height: auto;
+
+  & h2 {
+    font-family: "Open Sans Bold";
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.96px;
+  }
+
+  & .footer_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding-top: 40px;
+
+    & ul {
+      width: 270px;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      & p {
+        font-family: "Open Sans Bold";
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.96px;
+        margin-bottom: 5px;
+      }
+
+      & a {
+        font-family: "Open Sans Regular";
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        color: #140A32;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  footer {
+    width: 100%;
+    height: auto;
+
+    & h2 {
+      font-family: "Open Sans Bold";
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.96px;
+    }
+
+    & .footer_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 20px;
+      row-gap: 40px;
+      padding-top: 40px;
+
+      & ul {
+        width: 200px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        & p {
+          font-family: "Open Sans Bold";
+          font-size: 24px;
+          font-weight: 700;
+          letter-spacing: -0.96px;
+          margin-bottom: 5px;
+        }
+
+        & a {
+          font-family: "Open Sans Regular";
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: 400;
+          color: #140A32;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  footer {
+    width: 100%;
+    height: auto;
+
+    & h2 {
+      font-family: "Open Sans Bold";
+      font-size: 24px !important;
+      font-weight: 700;
+      letter-spacing: -0.96px;
+    }
+
+    & .footer_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      row-gap: 40px;
+      padding-top: 40px;
+
+      & ul {
+        width: 175px !important;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        & p {
+          font-family: "Open Sans Bold";
+          font-size: 20px !important;
+          font-weight: 700;
+          letter-spacing: -0.96px;
+          margin-bottom: 5px;
+        }
+
+        & a {
+          font-family: "Open Sans Regular";
+          text-decoration: none;
+          font-size: 14px !important;
+          font-weight: 400;
+          color: #140A32;
+        }
+      }
+    }
+  }
+}
