@@ -3,7 +3,10 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 998;
 }
 
 .modal_popup {
@@ -19,6 +22,7 @@
     left: calc(50% - 448px);
     padding: 40px;
     border-radius: 20px;
+    z-index: 10000;
 
     .close_btn1 {
         position: absolute;
@@ -77,11 +81,6 @@
     }
 }
 
-.stop_scrolling {
-    height: 100%;
-    overflow: hidden;
-}
-
 .hide {
     display: none !important;
 }
@@ -94,6 +93,7 @@
     background: #FFFFFF;
     border-radius: 20px;
     overflow: hidden;
+    z-index: 999;
 
     .dropdown_menu {
         position: relative;

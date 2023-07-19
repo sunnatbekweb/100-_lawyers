@@ -3969,6 +3969,10 @@ footer .footer_wrapper ul a {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 998;
 }
 
 .modal_popup {
@@ -3984,6 +3988,7 @@ footer .footer_wrapper ul a {
   left: calc(50% - 448px);
   padding: 40px;
   border-radius: 20px;
+  z-index: 10000;
 }
 .modal_popup .close_btn1 {
   position: absolute;
@@ -4034,11 +4039,6 @@ footer .footer_wrapper ul a {
   background: #33836E;
 }
 
-.stop_scrolling {
-  height: 100%;
-  overflow: hidden;
-}
-
 .hide {
   display: none !important;
 }
@@ -4051,6 +4051,7 @@ footer .footer_wrapper ul a {
   background: #FFFFFF;
   border-radius: 20px;
   overflow: hidden;
+  z-index: 999;
 }
 .drop_menu .dropdown_menu {
   position: relative;

@@ -16,7 +16,7 @@
 
     <div class="blur hide">
     </div>
-    
+
     <div class="modal_popup hide">
         <img src="./assets/icons/close_thick.svg" alt="close_btn" class="close_btn1">
         <img src="./assets/icons/ok_large.svg" alt="Large icon">
@@ -24,7 +24,7 @@
             <h3>Спасибо, ваша заявка принята</h3>
             <p>Мы свяжемся с вами в течение х минут</p>
         </div>
-        <button>Закрыть окно</button>
+        <button class="close_window">Закрыть окно</button>
     </div>
 
     <div class="drop_menu hide">
@@ -39,19 +39,21 @@
                     <p>64 юриста сейчас онлайн</p>
                 </div>
 
-                <div class="inputs">
-                    <div class="p_number">
-                        <p>Номер телефона</p>
-                        <input type="number" placeholder="+7" class="input1">
-                    </div>
+                <form action="">
+                    <div class="inputs">
+                        <div class="p_number">
+                            <p>Номер телефона</p>
+                            <input type="number" placeholder="+7" required class="input1">
+                        </div>
 
-                    <div class="name">
-                        <p>Ваше имя</p>
-                        <input type="text" placeholder="Type your name" class="input2">
-                    </div>
+                        <div class="name">
+                            <p>Ваше имя</p>
+                            <input type="text" placeholder="Type your name" required class="input2">
+                        </div>
 
-                    <button class="submit">Отправить</button>
-                </div>
+                        <button class="submit">Отправить</button>
+                    </div>
+                </form>
 
                 <a href="#">Отправляя вопрос, вы соглашаетесь с условиями Пользовательского соглашения</a>
             </div>
