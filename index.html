@@ -6,13 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- favicon -->
-    <link rel="icon" href="./assets/icons/">
+    <link rel="icon" href="./assets/icons/favicon.svg">
     <!-- main css -->
     <link rel="stylesheet" href="./css/style.css">
     <title>100 ЮРИСТОВ</title>
 </head>
 
 <body>
+
+    <div class="blur hide">
+    </div>
+    
+    <div class="modal_popup hide">
+        <img src="./assets/icons/close_thick.svg" alt="close_btn" class="close_btn1">
+        <img src="./assets/icons/ok_large.svg" alt="Large icon">
+        <div class="popup_text">
+            <h3>Спасибо, ваша заявка принята</h3>
+            <p>Мы свяжемся с вами в течение х минут</p>
+        </div>
+        <button>Закрыть окно</button>
+    </div>
+
+    <div class="drop_menu hide">
+        <div class="dropdown_menu">
+            <img src="./assets/icons/close_thick.svg" alt="close_thick icon" class="close_btn2">
+            <img src="./assets/images/woman-working-call-center2.png" alt="woman-working-call-center">
+            <div class="menu_text">
+                <h2>Бесплатная юридическая консультация по телефону</h2>
+
+                <div class="users_menu">
+                    <img src="./assets/images/users.png" alt="User image">
+                    <p>64 юриста сейчас онлайн</p>
+                </div>
+
+                <div class="inputs">
+                    <div class="p_number">
+                        <p>Номер телефона</p>
+                        <input type="number" placeholder="+7" class="input1">
+                    </div>
+
+                    <div class="name">
+                        <p>Ваше имя</p>
+                        <input type="text" placeholder="Type your name" class="input2">
+                    </div>
+
+                    <button class="submit">Отправить</button>
+                </div>
+
+                <a href="#">Отправляя вопрос, вы соглашаетесь с условиями Пользовательского соглашения</a>
+            </div>
+        </div>
+    </div>
+
 
     <header>
         <div class="container">
@@ -121,7 +166,7 @@
                             </p>
 
                             <div class="question">
-                                <button class="btn">
+                                <button class="btn nav_top--button open2">
                                     Задать вопрос юристу
                                 </button>
 
@@ -768,6 +813,7 @@
         </div>
     </footer>
 
+    <script src="./script.js"></script>
 </body>
 
 </html>
