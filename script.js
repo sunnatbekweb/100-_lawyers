@@ -50,6 +50,8 @@ submit.addEventListener("click", () => {
             modal.classList.add("hide"),
             modal_popup.classList.remove("hide")
         )
+        input1.value = ""
+        input2.value = ""
     }
 })
 
