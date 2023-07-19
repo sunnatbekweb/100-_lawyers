@@ -358,15 +358,17 @@
 
                     <div class="callback">
                         <p class="callback_text">Заказать обратный звонок</p>
-                        <div class="book_callback">
-                            <div class="p_number">
-                                <p>Номер телефона</p>
-                                <input type="number" placeholder="+7">
+                        <form action="">
+                            <div class="book_callback">
+                                <div class="p_number">
+                                    <p>Номер телефона</p>
+                                    <input type="number" required placeholder="+7" class="choose_tel">
+                                </div>
+                                <button class="choose_btn">
+                                    Заказать звонок
+                                </button>
                             </div>
-                            <button>
-                                Заказать звонок
-                            </button>
-                        </div>
+                        </form>
                         <a href="https://100yuristov.com/site/offer/" target="_blank">
                             Отправляя вопрос, вы соглашаетесь с условиями Пользовательского соглашения
                         </a>
@@ -514,15 +516,17 @@
                     <h2>Задайте вопрос юристу бесплатно</h2>
 
                     <div class="callback">
-                        <div class="book_callback">
-                            <div class="p_number">
-                                <p>Номер телефона</p>
-                                <input type="number" placeholder="+7">
+                        <form action="">
+                            <div class="book_callback">
+                                <div class="p_number">
+                                    <p>Номер телефона</p>
+                                    <input type="number" required placeholder="+7" class="question_tel">
+                                </div>
+                                <button class="question_btn">
+                                    Заказать звонок
+                                </button>
                             </div>
-                            <button>
-                                Заказать звонок
-                            </button>
-                        </div>
+                        </form>
                         <a href="https://100yuristov.com/site/offer/" target="_blank">
                             Отправляя вопрос, вы соглашаетесь с условиями Пользовательского соглашения
                         </a>
@@ -688,19 +692,21 @@
                             <textarea type="textarea" placeholder="Опишите вашу проблему..." class="problem"></textarea>
                         </div>
 
-                        <div class="inputs">
-                            <div class="p_number">
-                                <p>Номер телефона</p>
-                                <input type="number" placeholder="+7">
-                            </div>
+                        <form action="">
+                            <div class="inputs">
+                                <div class="p_number">
+                                    <p>Номер телефона</p>
+                                    <input type="number" required placeholder="+7" class="portal_tel">
+                                </div>
 
-                            <div class="name">
-                                <p>Ваше имя</p>
-                                <input type="text" placeholder="Type your name">
-                            </div>
+                                <div class="name">
+                                    <p>Ваше имя</p>
+                                    <input type="text" required placeholder="Type your name" class="portal_name">
+                                </div>
 
-                            <button>Отправить</button>
-                        </div>
+                                <button class="portal_btn">Отправить</button>
+                            </div>
+                        </form>
                         <a href="https://100yuristov.com/site/offer/" target="_blank">Отправляя вопрос, вы соглашаетесь
                             с условиями Пользовательского соглашения</a>
 
