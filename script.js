@@ -25,6 +25,7 @@ blurs.addEventListener("click", () => {
     header.classList.remove("hide")
     modal.classList.add("hide")
     blurs.classList.add("hide")
+    modal_popup.classList.add("hide")
     document.body.style.overflow = "scroll"
 })
 
